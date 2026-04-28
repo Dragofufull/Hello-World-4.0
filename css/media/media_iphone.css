@@ -1,0 +1,365 @@
+@media screen and (max-width: 1024px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .head {
+        padding: 0 20px;
+        height: 80px;
+    }
+    
+    .head_menu {
+        gap: 15px; 
+    }
+
+    .lang-switcher {
+        margin-left: 15px;
+    }
+
+    .catalog {
+        flex-direction: column;
+        height: auto;
+        padding: 120px 20px 50px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .catalog_description {
+        width: 100%; 
+        height: auto;
+    }
+
+    .catalog_description h1, 
+    .catalog_description span {
+        font-size: 32px; 
+    }
+
+    .catalog_description p {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-left: 0;
+    }
+
+    .catalog_img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .catalogforyou {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .catalogforyou p {
+        padding: 40px 20px; 
+        text-align: center;
+    }
+
+    .cardConteiner {
+        flex-direction: column;
+        height: auto;
+        gap: 80px; 
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+    .guide {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .guide-contest-list {
+        flex-direction: column-reverse;
+    }
+
+    .content-list {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 0 0;
+        padding: 20px 0;
+    }
+
+    .topics-list {
+        width: 90%;
+    }
+
+    .guide-img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    .info-block {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .code-conteiner {
+        width: 100%;
+        height: auto;
+        padding: 30px 0 0 20px;
+    }
+
+    .code {
+        padding: 30px 0 0 20px;
+        height: auto;
+    }
+
+    .info-about-courses {
+        flex-direction: row;
+        gap: 40px;
+        padding: 36px 48px;
+        text-align: center;
+    }
+
+    .description {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .text-about-courses .p {
+        text-align: center;
+    }
+
+    .course-cost {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .paid {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .paid-subscription {
+        padding: 25px;
+    }
+
+    .subscription-information, .bottom-text {
+        margin-left: 0;
+    }
+
+    .bottom-text {
+        margin-top: 40px;
+    }
+
+    .subscription-price1 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .subscription-price1 .heading {
+        font-size: 35px;
+    }
+
+    .register {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 40px 20px;
+    }
+
+    .register-name {
+        width: 100%;
+    }
+
+    .register_images {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .footer {
+        height: auto;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .information-about-the_websitE {
+        flex-direction: column;
+        gap: 45px;
+        align-items: flex-start;
+        height: auto;
+
+        padding: 28px 16px 0 16px;
+    }
+
+    .all-buttons {
+        gap: 40px;
+        width: 357px;
+        height: 108px;
+    }
+
+    .input_all {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .head_menu {
+        display: none;
+    }
+    
+    .head {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        flex-wrap: wrap; 
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .head_logo p {
+         font-size: 10px;
+    }
+
+    .head_logo h2 {
+         font-size: 16px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 2; 
+    }
+
+    .head_menu {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--grey);
+        gap: 15px;
+        padding: 20px 0;
+        order: 3; 
+        text-align: center;
+        border-top: 1px solid var(--hh);
+    }
+
+    .head_menu.active {
+        display: flex;
+    }
+
+    .lang-switcher {
+        order: 1; 
+    }
+
+    .cardConteiner {
+        gap: 25px;
+    }
+
+    .descriptionCard {
+        margin-top: 30px;
+    }
+
+    .guide-img {
+         display: none;
+    }
+
+    .headlin {
+         font-size: 20px;
+    }
+
+    .topics-list {
+        font-size: 14px;
+    }
+
+    .content-list {
+        width: 340px;
+        height: 400px;
+        padding: 0 19px;
+    }
+
+    .infoh1 {
+        font-size: 16px;
+    }
+    
+    .infoh1 span {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .text-about-courses .p {
+        font-size: 14px;
+    }
+    
+    .subscription-information {
+        font-size: 14px;
+    }   
+
+    .paid-subscription .subscription-information {
+        padding: 0 20px;
+    }
+
+    .bottom-text {
+        display: none;
+    }
+
+    .subscription-price1 .heading {
+        font-size: 32px;
+    }
+
+    .date-of-receipt {
+        font-size: 14px;
+    }
+
+    .Fill_in-the_data {
+        font-size: 16px;
+    }
+
+    .register {
+        background-color: var(--grey);
+        padding: 20px 14px;
+    }
+
+    .register-input {
+        width: auto;
+        height: 52px;
+    }
+
+    .register_images {
+        display: none;
+    }
+
+    .IT-land {
+        font-size: 18px;
+    }
+
+    .network {
+        width: 72px;
+        height: 20px;
+    }
+
+    .animation_p {
+        font-size: 14px;
+    }
+}
